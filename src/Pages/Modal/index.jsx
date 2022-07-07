@@ -37,7 +37,7 @@ function Modal({ closeModal }) {
                 </h1>
               </div>
               <div className='modalImg'>
-                <img src={modals.picture.large} alt='photo' />
+                <img src={modals.picture.large} alt='user' />
               </div>
               <div className='modalCity'>
                 <p>
@@ -54,7 +54,7 @@ function Modal({ closeModal }) {
 
               <div className='modalFooter'>
                 <button onClick={() => handleBack()} id='cancelBtn'>
-                  Back
+                  Go Back
                 </button>
               </div>
             </li>
