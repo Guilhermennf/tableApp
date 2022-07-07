@@ -16,7 +16,7 @@ function Button() {
           handleClick();
         }}
         className='button'>
-        Know more
+        About
       </button>
     </div>
   );
