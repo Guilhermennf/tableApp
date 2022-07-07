@@ -10,7 +10,7 @@ function Button() {
   };
 
   return (
-    <div className='main'>
+    <div>
       <button
         onClick={() => {
           handleClick();
