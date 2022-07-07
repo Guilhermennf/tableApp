@@ -37,7 +37,7 @@ function Modal({ closeModal }) {
                 </h1>
               </div>
               <div className='modalImg'>
-                <img src={modals.picture.large} />
+                <img src={modals.picture.large} alt='photo' />
               </div>
               <div className='modalCity'>
                 <p>
