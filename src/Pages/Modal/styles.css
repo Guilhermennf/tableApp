@@ -1,0 +1,91 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#bbddf6, #fcf5eb);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listModal-item {
+  list-style: none;
+}
+
+.modalImg img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.modalContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .modalTitle {
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.modalTitleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalTitleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .modalCity {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 25px;
+}
+
+.modalContainer .modalUsername,
+.modalEmail {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.modalContainer .modalFooter {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .modalFooter button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
