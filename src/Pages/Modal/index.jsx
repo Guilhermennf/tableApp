@@ -60,19 +60,6 @@ function Modal({ closeModal }) {
             </li>
           );
         })}
-        {/* <div className='modalTitle'>
-          <h1>Are You Sure You Want to Continue?</h1>
-        </div>
-        <div className='modalBody'>
-          <p>
-            The Next Page is Awesome! You should move forward, you will enjoy it
-          </p>
-        </div>
-        <div className='modalFooter'>
-          <button onClick={() => handleBack()} id='cancelBtn'>
-            Back
-          </button>
-        </div> */}
       </div>
     </div>
   );

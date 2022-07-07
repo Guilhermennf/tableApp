@@ -26,9 +26,6 @@ function Names() {
             </li>
           );
         })}
-        {/* <li className='list-item'>Ana</li>
-        <li className='list-item'>Ana</li>
-        <li className='list-item'>Ana</li> */}
       </ul>
     </div>
   );
